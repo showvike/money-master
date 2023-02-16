@@ -37,6 +37,7 @@
               <label class="space-x-3.5 font-['Roboto'] text-lg">
                 <span>Income:</span>
                 <input
+                  id="total-income"
                   class="bg-[#dcdcdc] px-4 py-2 rounded-sm"
                   type="text"
                   value="10000"
@@ -49,6 +50,7 @@
                 <label class="block space-x-3.5 font-['Roboto'] text-lg">
                   <span>Food:</span>
                   <input
+                    id="food-expense"
                     class="bg-[#dcdcdc] px-4 py-2 rounded-sm"
                     type="text"
                     value="3000"
@@ -57,6 +59,7 @@
                 <label class="block space-x-3.5 font-['Roboto'] text-lg">
                   <span>Rent:</span>
                   <input
+                    id="rent-expense"
                     class="bg-[#dcdcdc] px-4 py-2 rounded-sm"
                     type="text"
                     value="2000"
@@ -65,6 +68,7 @@
                 <label class="block space-x-3.5 font-['Roboto'] text-lg">
                   <span>Clothes:</span>
                   <input
+                    id="clothes-expense"
                     class="bg-[#dcdcdc] px-4 py-2 rounded-sm"
                     type="text"
                     value="500"
@@ -73,6 +77,7 @@
               </div>
             </div>
             <button
+              id="btn-cal"
               class="bg-[#59A5FF] rounded shadow-[0_4px_18px_0_rgba(0,0,0,0.1)] font-['Roboto'] font-bold text-white px-14 py-3 my-6 text-xl"
             >
               Calculate
@@ -80,10 +85,10 @@
           </div>
           <div>
             <h2 class="font-['Roboto'] font-medium text-xl mb-8">
-              Total Expenses: <span>5500</span>
+              Total Expenses: <span id="total-expense">5500</span>
             </h2>
             <h2 class="font-['Roboto'] font-medium text-xl mb-8">
-              Balance: <span>4500</span>
+              Balance: <span id="balance">4500</span>
             </h2>
             <div class="space-x-3.5 font-['Roboto'] text-lg">
               <label class="space-x-3.5">
@@ -112,5 +117,7 @@
       </div>
     </main>
     <!-- main ends -->
+    <!-- custom js -->
+    <script src="./app.js"></script>
   </body>
 </html>
