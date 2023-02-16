@@ -19,15 +19,98 @@
   <body>
     <!-- header starts -->
     <header>
-      <h1
-        class="font-['Montserrat'] font-bold text-5xl text-[#31a5ac] text-center my-9"
-      >
+      <h1 class="font-['Montserrat'] text-5xl text-[#31a5ac] text-center my-9">
         Money Master 💰
       </h1>
     </header>
     <!-- header ends -->
     <!-- main starts -->
-    <main></main>
+    <main>
+      <div class="mx-12 mb-16 grid grid-cols-12">
+        <div class="col-start-1 col-end-7">
+          <img src="./money-master.png" />
+        </div>
+        <div class="bg-[#f8f8f8] col-start-8 col-end-13 pt-9 text-center">
+          <div>
+            <div class="mb-6">
+              <h2 class="font-['Roboto'] font-medium text-xl mb-7">Income</h2>
+              <label class="space-x-3.5 font-['Roboto'] text-lg">
+                <span>Income:</span>
+                <input
+                  class="bg-[#dcdcdc] px-4 py-2 rounded-sm"
+                  type="text"
+                  value="10000"
+                />
+              </label>
+            </div>
+            <div>
+              <h2 class="font-['Roboto'] font-medium text-xl mb-6">Expenses</h2>
+              <div class="space-y-4">
+                <label class="block space-x-3.5 font-['Roboto'] text-lg">
+                  <span>Food:</span>
+                  <input
+                    class="bg-[#dcdcdc] px-4 py-2 rounded-sm"
+                    type="text"
+                    value="3000"
+                  />
+                </label>
+                <label class="block space-x-3.5 font-['Roboto'] text-lg">
+                  <span>Rent:</span>
+                  <input
+                    class="bg-[#dcdcdc] px-4 py-2 rounded-sm"
+                    type="text"
+                    value="2000"
+                  />
+                </label>
+                <label class="block space-x-3.5 font-['Roboto'] text-lg">
+                  <span>Clothes:</span>
+                  <input
+                    class="bg-[#dcdcdc] px-4 py-2 rounded-sm"
+                    type="text"
+                    value="500"
+                  />
+                </label>
+              </div>
+            </div>
+            <button
+              class="bg-[#59A5FF] rounded shadow-[0_4px_18px_0_rgba(0,0,0,0.1)] font-['Roboto'] font-bold text-white px-14 py-3 my-6 text-xl"
+            >
+              Calculate
+            </button>
+          </div>
+          <div>
+            <h2 class="font-['Roboto'] font-medium text-xl mb-8">
+              Total Expenses: <span>5500</span>
+            </h2>
+            <h2 class="font-['Roboto'] font-medium text-xl mb-8">
+              Balance: <span>4500</span>
+            </h2>
+            <div class="space-x-3.5 font-['Roboto'] text-lg">
+              <label class="space-x-3.5">
+                <span>Save:</span>
+                <input
+                  class="bg-[#dcdcdc] px-4 py-2 rounded-sm w-1/4"
+                  type="text"
+                  value="20"
+                />
+              </label>
+              <span>%</span>
+              <button
+                class="bg-[#59A5FF] rounded-sm shadow-[0_4px_18px_0_rgba(0,0,0,0.1)] font-['Roboto'] font-bold text-white px-16 py-2 my-6 text-xl"
+              >
+                Save
+              </button>
+            </div>
+            <h2 class="font-['Roboto'] font-medium text-xl mb-5">
+              Saving Amount: <span>2000</span>
+            </h2>
+            <h2 class="font-['Roboto'] font-medium text-xl">
+              Remaining Balance: <span>2500</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </main>
     <!-- main ends -->
   </body>
 </html>
